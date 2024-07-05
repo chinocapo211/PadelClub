@@ -54,31 +54,28 @@ const TabLayout = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    
+    backgroundColor: 'white',
   },
   topSection: {
+    height: 120, // Tamaño predefinido del topSection
     backgroundColor: 'white',
-    width: '100%',
-    padding: 3,
-    paddingRight:10,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-around',
   },
   logoContainer: {
-    flex: 1,
-    alignItems: 'center',
+    width: 100, // Ancho predefinido para el contenedor del logo
+    height: '100%', // La altura del contenedor será la misma que la del topSection
+    justifyContent: 'center', // Centra verticalmente la imagen
   },
   logo: {
-    width: 100,
-    height: 95,
-    marginLeft:0,
-    marginTop:10,
-    resizeMode: 'contain',
+    width: '100%',
+    height: '100%',
   },
   profileIcon: {
-    
+    // Estilos opcionales para el icono de perfil
   },
 });
+
 
 export default TabLayout;
