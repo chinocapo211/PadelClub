@@ -4,6 +4,8 @@ import { Colors } from '../../constants/Colors';
 
 const screenWidth = Dimensions.get('window').width;
 
+
+
 export default function Home() {
   return (
     <View style={styles.container}>
